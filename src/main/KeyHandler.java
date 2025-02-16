@@ -26,7 +26,7 @@ public class KeyHandler implements KeyListener {
         else if (code == KeyEvent.VK_RIGHT || code == KeyEvent.VK_D) right = true;
 
         // Se premo SPAZIO o ESC, metto in pausa
-        else if (code == KeyEvent.VK_SPACE || code == KeyEvent.VK_ESCAPE) {
+        else if ((code == KeyEvent.VK_SPACE || code == KeyEvent.VK_ESCAPE) && !PlayManager.gameOver) {
             pause = !pause;
 
             // Gestione della musica in caso di messa in pausa
