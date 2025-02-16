@@ -37,7 +37,8 @@ Once started, you must use the keyboard to play the game. Here is the list of al
 - ESCAPE or SPACE: pause the game, show controls (in Italian)
 - C: switch between light and dark theme
 - M: disable all music effects
-Once the game is over, you have to close and rerun the program
+
+Once the game is over, you have to close and rerun the program to play again.
 
 ## Possible future updates
 Despite this being a not-that-serious project, I might consider updating the code to add/change the following:
