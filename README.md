@@ -10,6 +10,7 @@ All game's core mechanics are his, while I mostly changed minor things I wanted 
 - added option to choose between a dark and light mode
 - added a "pause" sound
 - added on-screen controls guide while the game is paused
+- changed Minos' speed and sliding timings
 - game is entirely localized in Italian🇮🇹 (comments/gameplay)
 
 ## How to run
@@ -23,10 +24,13 @@ git clone https://github.com/danilacarbi/JTetris.git
 ```
 Then, open your preferred IDE, import this project and then run the "Tetris.java" file.
 
-Alternatively, a .jar file is available in the "Releases" tab. To run it, install a JVM and then double-click it.
+Alternatively, a .jar file is available in the "Releases" tab. To run it, install a JVM and then double-click it, or run it from the terminal by navigating to the .jar file's directory and typing
+```
+java -jar JTetris.jar
+```
 
 ## How to play
-Once started, to play the game you must use the keyboard. Here is the list of possible commands:
+Once started, you must use the keyboard to play the game. Here is the list of all possible commands:
 - UP arrow or W: rotate the Mino
 - DOWN arrow or S: push the Mino down
 - SX or DX arrows/A or D: move the Mino left or right
@@ -40,13 +44,16 @@ Despite this being a not-that-serious project, I might consider updating the cod
 - an English🇬🇧 version (comments/commands), maybe with option to switch within the game
 - option to restart the game while running
 - option to disable background music/sound effects only
-- add comments to the single Mino classes 
+- add comments to the single Mino classes
+- add extra points, e.g. when 4 rows are deleted or when the screen is cleared
 
 ## Acknowledgments
 I sincerly want to thank RyiSnow for making such a detailled yet simple-to-follow tutorial. When I have a lot of free time again, I will surely make another project like this!
+
 I have also used some music effects, all of them are available in his video description. The only audio file you will not find there is the pause sound, 
-which I have downloaded from [Pixabay](https://pixabay.com/sound-effects/search/pause/)
-I do not claim ownership over any of the audio files nor code snippets I have not edited.
+which I have downloaded from [Pixabay](https://pixabay.com/sound-effects/search/pause/).
+I do not claim ownership over any of the audio files nor code snippets I have not personally edited.
+
 I also want to thank in advance anyone who plays the game and/or notifies me of any problems in the code.
 
 ## Important note
