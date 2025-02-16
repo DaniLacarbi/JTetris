@@ -24,7 +24,7 @@ git clone https://github.com/danilacarbi/JTetris.git
 ```
 Then, open your preferred IDE, import this project and then run the "Tetris.java" file.
 
-Alternatively, a .jar file is available in the "Releases" tab. To run it, install a JVM and then double-click it, or run it from the terminal by navigating to the .jar file's directory and typing
+Alternatively, a .jar file is available in the "Releases" tab (updated as of Feb 16th, 2025). To run it, install a JVM and run it from the terminal by navigating to the .jar file's directory and typing
 ```
 java -jar JTetris.jar
 ```
