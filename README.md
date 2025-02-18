@@ -15,7 +15,7 @@ All game's core mechanics are his, while I mostly changed minor things I wanted 
 
 ## How to run
 You will need:
-- JVM (Java Virtual Machine), you can download Oracle's or an open source implementation;
+- JVM (Java Virtual Machine), you can download Oracle's or an open source implementation
 - A Java IDE, such as IntelliJ or Eclipse
 
 To download this project, simply run
@@ -28,6 +28,7 @@ Alternatively, a .jar file is available in the "Releases" tab (updated as of Feb
 ```
 java -jar JTetris.jar
 ```
+Please read the release notes carefully. It has especially been proven that the binary is NOT compatible with older versions such as Java 8. I might compile a compatible version, if possible.
 
 ## How to play
 Once started, you must use the keyboard to play the game. Here is the list of all possible commands:
